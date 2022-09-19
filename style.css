@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Poiret One', cursive;
+    background-color: rgb(255, 255, 254);
+}
+
+.header, .watch, .controls {
+    display: flex;
+    justify-content: center;
+}
+
+.heading { 
+    font-size: 5vw;
+}
+
+.watch {
+    margin-top: 7vh;
+}
+.watch__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vw;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 60px 1px rgba(0, 0, 0, 0.412);
+    color: rgb(53, 53, 53);
+    width: 8vw;
+    height: 8vw;
+    border-radius: 20px;
+    flex-direction: column;
+}
+
+.controls {
+    margin-top: 5vh;
+}
+
+.font {
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.btn {
+    width: 10vw;
+    height: 4vw;
+    outline: none;
+    background-color: rgb(246, 78, 78);
+    border: none;
+    color: #fff;
+    box-shadow: 1px 1px 60px 1px rgba(0, 0, 0, 0.286);
+}
+#start {
+    border-radius: 20px 0px 0px 20px;
+}
+#restart {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.btn:hover {
+    background-color: rgb(255, 115, 115);
+    transition: 150ms;
+}
+
+.btn:focus {
+    background-color: rgb(121, 40, 40);
+    transition: 100ms;
+}
+
+p {
+    margin: 0;
+}
+
+
+

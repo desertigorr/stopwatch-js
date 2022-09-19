@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="header">
+        <h1 class="heading">Stopwatch</h1>
+    </div>
+
+    <div class="watch">
+        <div class="watch__item">
+            <p id="hours">0</p>
+            <p>hrs</p>
+        </div>
+        <div class="watch__item">
+            <p id="minutes">00</p>
+            <p>min</p>
+        </div>
+        <div class="watch__item">
+            <p id="seconds">00</p>
+            <p>sec</p>
+        </div>
+        <div class="watch__item">
+            <p id="ms">00</p>
+            <p>ms</p>
+        </div>
+    </div>
+
+    <div class="controls">
+        <div class="controls__item">
+            <button id="start" class="btn"><i class="fa fa-play"></i></button>
+        </div>
+        <div class="controls__item">
+            <button id="pause" class="btn"><i class="fa fa-pause"></i></button>
+        </div>
+        <div class="controls__item">
+            <button id="restart" class="btn"><i class="fa fa-stop"></i></button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
